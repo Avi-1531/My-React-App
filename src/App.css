@@ -1,0 +1,37 @@
+*{
+font-family: 'Merriweather',
+        serif;
+       
+}
+body{
+    /* background-color: rgb(126, 121, 121); */
+    /* background: url("src\assets\react.svg"); */
+    background: url("src/assets/react.svg");
+    background-repeat: no-repeat;
+    background-size: 27rem;
+    background-position: 84vw;
+    background-color: rgb(45, 45, 45);
+}
+
+#emailbox{
+    display: flex;
+    cursor: pointer;
+    
+    margin:auto;
+    margin-top: 11px;
+    justify-content: center;
+    align-items: center;
+        width: 247px;
+        padding: 9px 13px 9px 11px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 6px;
+            border: 1px solid var(--gray-300, #D1D5DB);
+            background: var(--white, #FFF);
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+}
+#emailbox:hover{
+    background-color: pink;
+}
+
